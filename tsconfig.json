@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": false,
+    "declaration": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "src/**/*"
+, "sdk/utils/keyboard.utils.ts", "sdk/utils/llm.util.ts", "sdk/utils/summarize.util.ts"  ]
+}
